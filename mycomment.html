@@ -57,14 +57,36 @@
 			      <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
 			      
 			        <li class="nav-item"><a href="contact.html">Contact us</a></li>
-			        <li class="nav-item active"><a href="library.html">Library Page</a></li>
+			        <li class="nav-item active"><a href="library.html">Chart Page</a></li>
 			    </ul>
 			  </div>
 			</nav>
 		</div>
 	</header>
-	
+	 .welcome-message {
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 24px;
+            padding: 20px;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        @keyframes gradientAnimation {
+            0% {
+                background: linear-gradient(45deg, #3498db, #e74c3c);
+            }
+            100% {
+                background: linear-gradient(45deg, #e74c3c, #3498db);
+            }
+        }
+    </style>
     <div class="container center_display">
+	     <div class="welcome-message">
+        Welcome to the Discussion Page! Your ideas are highly welcome.
+    </div>
         <div class="top">
             <div class="video_container">
                 <img src="reg.jpg" width="100%" height="500px;" alt="my post image">
